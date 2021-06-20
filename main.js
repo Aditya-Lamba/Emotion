@@ -1,5 +1,5 @@
-prediction_1 = ""
-prediction_2 = ""
+predicition_1 = ""
+predicition_2 = ""
 
 Webcam.set({
     width:350,
@@ -71,16 +71,16 @@ synth.speak(utterThis);
                }
                if(results[1].label == "happy")
                {
-                   document.getElementById("update_emoji").innerHTML = "&#128522;";
+                   document.getElementById("update_emoji2").innerHTML = "&#128522;";
              }
              if(results[1].label == "sad")
                {
-                   document.getElementById("update_emoji").innerHTML = "&#128532;";
+                   document.getElementById("update_emoji2").innerHTML = "&#128532;";
                    
                }
                if(results[1].label == "angry")
                {
-                   document.getElementById("update_emoji").innerHTML = "&#128548;";
+                   document.getElementById("update_emoji2").innerHTML = "&#128548;";
                    
                }
             }
